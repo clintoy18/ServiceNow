@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ai_generated>false</ai_generated>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1"><strong>Using the needit Form</strong></h1>
+<p>Use the needit application to request services and goods from several departments.</p>
+<ul><li>Legal</li><li>Human Resources</li><li>Facilities</li></ul>
+<p><strong>    Needit Form Fields</strong></p>
+<ol class="steps-ordered"><li>
+<p>For new Needit records, the <strong>Requested for</strong> field is pre-populated with your name. If you are opening a Needit request for someone else, you can change the value in the <strong>Requested for</strong> field.</p>
+</li><li>
+<p>The <strong>Requested for email</strong> field is automatically populated if you change the user in the <strong>Requested for</strong> field. You can change the <strong>Requested for email</strong> field value.</p>
+</li><li>
+<p>The choices in the <strong>What needed</strong> field depend on the value in the <strong>Request type</strong> field.</p>
+</li><li>
+<p>If the value in the <strong>What needed</strong> field is <strong>Other</strong>, the <strong>Other</strong> field appears. Use the <strong>Other</strong> field to add a few words about your request.</p>
+</li><li>
+<p>Use the calendar picker in the <strong>When needed</strong> field to set the due date for the Needit request.</p>
+</li><li>
+<p>Use the <strong>Short description</strong> and <strong>Description</strong> fields to provide more information about your request.<br /><br /></p>
+</li><li class="li step">
+<div class="note tm-element"><span class="notetitle">Note: When creating Needit requests, the <em>When needed</em> date cannot be today or in the past.</span></div>
+<strong>Need More Help?</strong>
+<p>You can learn about form fields on the ServiceNow docs site.</p>
+</li></ol>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>Clint NeedIt Form</name>
+        <page>x_1620122_needit_needit</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 06:03:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>102a26b55390e6102dc175e0a0490ece</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Clint NeedIt Form</sys_name>
+        <sys_package display_value="NeedIt" source="x_1620122_needit">07e522bd5350e6102dc175e0a0490e10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</sys_scope>
+        <sys_update_name>sys_embedded_help_content_102a26b55390e6102dc175e0a0490ece</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 06:03:49</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=102a26b55390e6102dc175e0a0490ece"/>
+</record_update>

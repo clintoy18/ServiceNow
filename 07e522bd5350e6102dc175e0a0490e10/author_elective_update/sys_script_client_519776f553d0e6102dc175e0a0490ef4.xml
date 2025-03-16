@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Welcome User</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+ (function executeRule(current, gForm, gSNC) {
+    var userName = gUser.getFullName();
+    gForm.addInfoMessage("Welcome! " + userName + "!");
+})(current, gForm, gSNC);
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 06:58:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>519776f553d0e6102dc175e0a0490ef4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Welcome User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_1620122_needit">07e522bd5350e6102dc175e0a0490e10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</sys_scope>
+        <sys_update_name>sys_script_client_519776f553d0e6102dc175e0a0490ef4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 06:58:14</sys_updated_on>
+        <table>x_1620122_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</application>
+        <file_path/>
+        <instance_id>ed867a693b3b9ad48d70e0bf55e45a79</instance_id>
+        <instance_name>dev295916</instance_name>
+        <name>sys_script_client_519776f553d0e6102dc175e0a0490ef4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt Welcome User&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+ (function executeRule(current, gForm, gSNC) {
+    var userName = gUser.getFullName();
+    gForm.addInfoMessage("Welcome! " + userName + "!");
+})(current, gForm, gSNC);
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-16 06:58:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;519776f553d0e6102dc175e0a0490ef4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Welcome User&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_1620122_needit"&gt;07e522bd5350e6102dc175e0a0490e10&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;07e522bd5350e6102dc175e0a0490e10&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_519776f553d0e6102dc175e0a0490ef4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-16 06:58:14&lt;/sys_updated_on&gt;&lt;table&gt;x_1620122_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2037628057</payload_hash>
+        <record_name>NeedIt Welcome User</record_name>
+        <reverted_from/>
+        <source>53e522bd5350e6102dc175e0a0490e15</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 06:58:14</sys_created_on>
+        <sys_id>6dd7f6f553d0e6102dc175e0a0490ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1959dbefd0b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 06:58:14</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>61d7f6f58bd0e6105a8b76674748c1bc</update_guid>
+        <update_guid_history>61d7f6f58bd0e6105a8b76674748c1bc:-2037628057</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 06:59:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>91877562baac4c00a9ab9e4bab890000</sys_id>
+        <sys_metadata>519776f553d0e6102dc175e0a0490ef4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Welcome User</sys_name>
+        <sys_package display_value="NeedIt" source="x_1620122_needit">07e522bd5350e6102dc175e0a0490e10</sys_package>
+        <sys_parent display_value="NeedIt">6d462e315390e6102dc175e0a0490ef3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</sys_scope>
+        <sys_scope_delete display_value="">2cc09692980648f18a5a2b12b10282a1</sys_scope_delete>
+        <sys_update_name>sys_script_client_519776f553d0e6102dc175e0a0490ef4</sys_update_name>
+        <sys_update_version display_value="sys_script_client_519776f553d0e6102dc175e0a0490ef4">6dd7f6f553d0e6102dc175e0a0490ebc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 06:59:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

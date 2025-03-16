@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ai_generated>false</ai_generated>
+        <category/>
+        <content><![CDATA[<strong>     Administering the Needit Form</strong>
+<p>Only members of the Needit application team can make changes to the Needit form. Do not make changes to the Needit form without an approved change request.</p>
+<div class="note tm-element"><span class="notetitle">Note: The Needit Application is brought to you by the bsweets and niedziel.</span></div>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>Clint NeedIt List</name>
+        <page>x_1620122_needit_needit_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 06:06:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8aaba2395390e6102dc175e0a0490e9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clint NeedIt List</sys_name>
+        <sys_package display_value="NeedIt" source="x_1620122_needit">07e522bd5350e6102dc175e0a0490e10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</sys_scope>
+        <sys_update_name>sys_embedded_help_content_8aaba2395390e6102dc175e0a0490e9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 06:06:44</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=8aaba2395390e6102dc175e0a0490e9d"/>
+</record_update>
