@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>true</disabled>
+        <field>priority</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 07:52:44</sys_created_on>
+        <sys_id>b724c3795314e6102dc175e0a0490ee0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="NeedIt" source="x_1620122_needit">07e522bd5350e6102dc175e0a0490e10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b724c3795314e6102dc175e0a0490ee0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 07:52:44</sys_updated_on>
+        <table>x_1620122_needit_needit</table>
+        <ui_policy display_value=" When State is changed to Closed Complete, set fields to read only.">31a2cfb55314e6102dc175e0a0490e6a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=b724c3795314e6102dc175e0a0490ee0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</application>
+        <file_path/>
+        <instance_id>ed867a693b3b9ad48d70e0bf55e45a79</instance_id>
+        <instance_name>dev295916</instance_name>
+        <name>sys_ui_policy_action_b724c3795314e6102dc175e0a0490ee0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>true</disabled><field>priority</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-16 07:52:44</sys_created_on><sys_id>b724c3795314e6102dc175e0a0490ee0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>priority</sys_name><sys_package display_value="NeedIt" source="x_1620122_needit">07e522bd5350e6102dc175e0a0490e10</sys_package><sys_policy/><sys_scope display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</sys_scope><sys_update_name>sys_ui_policy_action_b724c3795314e6102dc175e0a0490ee0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-16 07:52:44</sys_updated_on><table>x_1620122_needit_needit</table><ui_policy display_value=" When State is changed to Closed Complete, set fields to read only.">31a2cfb55314e6102dc175e0a0490e6a</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=b724c3795314e6102dc175e0a0490ee0"/></record_update>]]></payload>
+        <payload_hash>-943563473</payload_hash>
+        <record_name>priority</record_name>
+        <reverted_from/>
+        <source>a66e3e715314e6102dc175e0a0490e69</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 07:52:44</sys_created_on>
+        <sys_id>b3448f395314e6102dc175e0a0490e9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1959df0e4390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 07:52:44</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b7448f393a14e610e0e9788db79aef99</update_guid>
+        <update_guid_history>b7448f393a14e610e0e9788db79aef99:-943563473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-16 07:55:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>7b5c42c717b24030b7007d40079df8a1</sys_id>
+        <sys_metadata>b724c3795314e6102dc175e0a0490ee0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="NeedIt" source="x_1620122_needit">07e522bd5350e6102dc175e0a0490e10</sys_package>
+        <sys_parent display_value=" When State is changed to Closed Complete, set fields to read only.">31a2cfb55314e6102dc175e0a0490e6a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">07e522bd5350e6102dc175e0a0490e10</sys_scope>
+        <sys_scope_delete display_value="">2cc09692980648f18a5a2b12b10282a1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b724c3795314e6102dc175e0a0490ee0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b724c3795314e6102dc175e0a0490ee0">b3448f395314e6102dc175e0a0490e9a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-16 07:55:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
